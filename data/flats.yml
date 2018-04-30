@@ -1,0 +1,36 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+
+RenaudRouas:
+  name: Reno's home
+  description: Magnifique appart à Marseille
+  city_name: "Marseille, FR"
+  city_slug: "marseille"
+  wifi: true
+  rating: 5
+Brisskette:
+  name: Toinou's home
+  description: Beauty rooftop
+  city_name: "Bordeaux, FR"
+  city_slug: "bordeaux"
+  wifi: true
+  rating: 5
