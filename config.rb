@@ -1,3 +1,5 @@
+
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -24,6 +26,9 @@ end
 # data.flats.flats.each do |flat|
 #   proxy "/flats/#{flat.slug}.html", "/flats/show.html",  :ignore => true
 # end
-data.flats.each do |name|
-  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
+
+flat = data.flats
+
+flat.each do |name|
+  proxy "source/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
 end
